@@ -12,7 +12,7 @@ node {
     stage('Checkout') {
         // Clone de repository
         git branch: 'main',
-            url: 'https://github.com/USER/cicd-sample-app.git'
+            url: 'https://github.com/EmielVandenberghe/cicd-sample-app.git'
     }
     
     stage('Build') {
